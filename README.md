@@ -1,79 +1,65 @@
-# Custom Enumerable Project
+<h1 align="center">TOP-Tic-Tac-Toe - Readme</h1>
+<p align="center">
+  <strong>
+    My solution for project from <a href="https://www.theodinproject.com" target="_blank">The Odin Project (TOP)</a> full-stack curriculum
+  </strong>
+</p>
+<div align="center">
+  <a href="https://www.theodinproject.com">
+    <img src="_for_readme/banner.png">
+  </a>
+</div>
+
+<br>
+
+# Table of Contents
+* [The Odin Project :thinking:](#the-odin-project-thinking)
+  * [What is it](#what-is-it)
+  * [Is it worth doing](#is-it-worth-doing)
+* [Overview :sparkles:](#overview-sparkles)
+  * [About](#about)
+  * [Technologies](#technologies)
+  * [Setup](#setup)
+
+<br>
+
+# The Odin Project :thinking:
+
+## What is it  
+[The Odin Project](https://www.theodinproject.com) is a free, open-source curriculum that teaches web development from the ground up. It covers HTML, CSS, JavaScript, Ruby, Git, React, and back-end technologies like Node.js and Ruby on Rails, offering a structured path from beginner to job-ready developer. The curriculum includes hands-on projects, coding exercises, and real-world applications to reinforce learning.
+
+## Is it worth doing  
+The Odin Project is an excellent resource for self-taught developers looking for a structured and comprehensive learning path. It encourages active learning through projects and collaboration with the community. However, since it requires self-discipline and problem-solving skills, those who prefer guided instruction with direct mentorship might find it challenging.
+
+<br>
+
+# Overview :sparkles:
+
+## About
 
 This repository complements the [Custom Enumerables Project](https://www.theodinproject.com/lessons/ruby-custom-enumerables) in the Ruby Course for The Odin Project. The goal of this project is to reimplement common methods used frequently through the enumerables module with objects like arrays and hashes. This project will also familiarize you with how to work with blocks and procs. Some starter code and specs are provided to validate the correctness of your solutions.
 
-## Installation
+## Technologies
+Languages:
+- Ruby
+  
+Programs:
+- [VSCode](https://code.visualstudio.com)
 
-First, clone this repository with
+## Setup
+- Download this repository
+- Open folder in terminal
+- Install the dependencies using the command `bundle install`
+- Run the tests using `bundle exec rspec <spec_file>`
 
-```bash
-git clone git@github.com:TheOdinProject/custom_enumerable_project.git
-```
-
-Then, navigate into the folder through your command line with
-
-```bash
-cd custom_enumerable_project
-```
-
-and install the dependencies using the command
-
-```bash
-bundle install
-```
-
-## Getting Started
-
-You will add new methods to the `Enumerable` module in `lib/my_enumerables.rb`. Before you implement a method, go to the corresponding spec file and watch the test fail by running
-
-```bash
-bundle exec rspec <spec_file>
-```
-
-You can find the associated spec file in the [methods section](#methods). Then, add the method to the enumerable module. Run the tests again using the same command until they pass.
-
-### Example
-
-As an example, before you start implementing the `my_each` method, run
-
-```bash
-bundle exec rspec spec/my_each_spec.rb
-```
-
-to see that the test fails as expected.
-
-Once you implement it, like so:
-
-```rb
-# lib/my_enumerables.rb
-
-class Array
-  def my_each
-    # Complete code
-  end
-end
-```
-
-run the command
-
-```bash
-bundle exec rspec spec/my_each_spec.rb
-```
-
-again to see if your code is correct or not.
-
-### Methods
-
-The following table has the methods you will need to implement along with their associated specs, as outlined in the project instructions. The methods in the Enumerable module only need to work with Arrays, but you can challenge yourself and try to make them work for Hashes as well.
-
-| Method                          | Spec File                       | Notes                                                                 |
-| ------------------------------- | ------------------------------- | --------------------------------------------------------------------- |
-| `Array#my_each`                 | spec/my_each_spec.rb            | You will define my_each on the Array class in `lib/my_enumerables.rb` |
-| `Enumerable#my_each_with_index` | spec/my_each_with_index_spec.rb |                                                                       |
-| `Enumerable#my_select`          | spec/my_select_spec.rb          |                                                                       |
-| `Enumerable#my_all?`            | spec/my_all_spec.rb             |                                                                       |
-| `Enumerable#my_any?`            | spec/my_any_spec.rb             |                                                                       |
-| `Enumerable#my_none?`           | spec/my_none_spec.rb            |                                                                       |
-| `Enumerable#my_count`           | spec/my_count_spec.rb           |                                                                       |
-| `Enumerable#my_map`             | spec/my_map_spec.rb             |                                                                       |
-| `Enumerable#my_inject`          | spec/my_inject_spec.rb              
+| Method                          | Spec File                       |
+| ------------------------------- | ------------------------------- |
+| `Array#my_each`                 | spec/my_each_spec.rb            |
+| `Enumerable#my_each_with_index` | spec/my_each_with_index_spec.rb |
+| `Enumerable#my_select`          | spec/my_select_spec.rb          |
+| `Enumerable#my_all?`            | spec/my_all_spec.rb             |
+| `Enumerable#my_any?`            | spec/my_any_spec.rb             |
+| `Enumerable#my_none?`           | spec/my_none_spec.rb            |
+| `Enumerable#my_count`           | spec/my_count_spec.rb           |
+| `Enumerable#my_map`             | spec/my_map_spec.rb             |
+| `Enumerable#my_inject`          | spec/my_inject_spec.rb          |

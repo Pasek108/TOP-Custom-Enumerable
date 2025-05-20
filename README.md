@@ -1,4 +1,4 @@
-<h1 align="center">TOP-Tic-Tac-Toe - Readme</h1>
+<h1 align="center">TOP-Custom-Enumerable - Readme</h1>
 <p align="center">
   <strong>
     My solution for project from <a href="https://www.theodinproject.com" target="_blank">The Odin Project (TOP)</a> full-stack curriculum
